@@ -60,8 +60,4 @@ sns.countplot(x="Sex", hue="Survived", data=df, palette="coolwarm")
 plt.title("Gender vs Survival")
 plt.show()
 
-# Observations you can mention in README.md:
-# - Females had higher survival rate than males.
-# - Higher passenger class (Pclass=1) had better survival chances.
-# - Younger passengers had slightly better survival probability.
-# - Fare is positively correlated with survival.
+
